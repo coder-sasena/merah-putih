@@ -19,6 +19,17 @@ span {
     animation: animate 1s infinite;
 }
 
+@media (max-width: 360px) {
+    span {
+        width: 7px;
+        height: 250px;
+    }
+    .bendera {
+        top: 30%;
+        left: 55%;
+    }
+  }
+
 @keyframes animate {
     50% {
         margin-top: 10px;
